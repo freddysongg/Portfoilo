@@ -1,0 +1,43 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "next",
+    "next/core-web-vitals",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    "simple-import-sort/imports": "off",
+    "tailwindcss/classnames-order": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react/no-unescaped-entities": "off"
+  },
+  "overrides": [
+    {
+      "files": ["**/*.ts", "**/*.tsx"],
+      "plugins": [
+        "@typescript-eslint",
+        "simple-import-sort",
+        "tailwindcss",
+        "unused-imports"
+      ],
+      "extends": ["plugin:tailwindcss/recommended"],
+      "parser": "@typescript-eslint/parser",
+      "parserOptions": {
+        "project": "./tsconfig.json"
+      },
+      "rules": {
+        "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_" }],
+        "@typescript-eslint/no-explicit-any": "off",
+        "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
+        "react/react-in-jsx-scope": "off",
+        "simple-import-sort/exports": "error",
+        "simple-import-sort/imports": "off",
+        "tailwindcss/classnames-order": "off",
+        "react-hooks/exhaustive-deps": "off",
+        "tailwindcss/no-contradicting-classname": "off",
+        "tailwindcss/no-custom-classname": "off",
+        "unused-imports/no-unused-imports": "error"
+      }
+    }
+  ]
+}
