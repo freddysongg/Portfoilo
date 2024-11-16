@@ -1,4 +1,5 @@
 {
+  "homepage": "http://freddysongg.github.io/freddysongg.github.io",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -7,7 +8,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write 'src/**/*.{ts,tsx,json,css,md}'"
+    "format": "prettier --write 'src/**/*.{ts,tsx,json,css,md}'",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
@@ -53,6 +56,7 @@
     "eslint-plugin-simple-import-sort": "^12.0.0",
     "eslint-plugin-tailwindcss": "^3.14.3",
     "eslint-plugin-unused-imports": "^3.1.0",
+    "gh-pages": "^6.2.0",
     "postcss": "^8.4.35",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.2.8",
