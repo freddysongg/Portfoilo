@@ -9,8 +9,8 @@
     "start": "next start",
     "lint": "next lint",
     "format": "prettier --write 'src/**/*.{ts,tsx,json,css,md}'",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "next build",
+    "deploy": "gh-pages -d .next -f"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.3.4",
