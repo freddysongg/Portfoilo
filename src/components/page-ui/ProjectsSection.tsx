@@ -91,6 +91,53 @@ const projects = [
     ],
   },
   {
+    title: 'CafeCast - Cafe Forecasting Platform',
+    githubLink: 'https://github.com/freddysongg/CafeCast',
+    description: (
+      <p>
+        CafeCast is an AI-driven time-series forecasting platform for café data
+        analytics, leveraging ARIMA, LSTM, and transformer-based models for
+        accurate sales and inventory predictions.
+      </p>
+    ),
+    skills: [
+      'Python',
+      'ARIMA',
+      'LSTM',
+      'Time-Series Transformers',
+      'Bayesian Optimization',
+    ],
+  },
+  {
+    title: 'LeftRight - Political Trivia Game',
+    githubLink: 'https://github.com/freddysongg/LeftRight',
+    projectLink: 'https://leftright-trivia.vercel.app/',
+    description: (
+      <p>
+        A fun and interactive trivia game that matches your vibes with political
+        sides! Swipe left or right on hilarious, trivial, or downright
+        outrageous questions to discover if you're more Democrat or Republican.
+        Minimalist Tinder-style UI, smooth animations, and shareable results
+        make this the perfect game for Gen Z to swipe, laugh, and share!
+      </p>
+    ),
+    skills: ['React', 'Typescript', 'TailwindCSS', 'Vite', 'Vercel'],
+  },
+  {
+    title: 'Climate Changer - Weather Analyzing Platform',
+    githubLink: 'https://github.com/freddysongg/Climate-Changer',
+    description: (
+      <p>
+        This project analyzes and visualizes climate data to uncover
+        relationships between key environmental factors such as CO₂ emissions,
+        energy efficiency, and urban population trends. It leverages R for data
+        processing, Docker for containerization, and Kubernetes for scalable
+        deployment.
+      </p>
+    ),
+    skills: ['R', 'Docker', 'Kubernetes', 'Python', 'ggplot2', 'Tidyverse'],
+  },
+  {
     title: 'News Genie - News Archive Platform',
     githubLink: 'https://github.com/freddysongg/News-Genie',
     description: (

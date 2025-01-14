@@ -50,20 +50,23 @@ const experience = [
     description: (
       <ul className="list-disc">
         <li>
-          Automated testing of 45+ CRUD endpoints using Postman, reducing manual
-          testing time by 50%.
+          Utilized DataGrip and Python scripts to automate refining of over 100k
+          lines of data imported from Shopify’s product taxonomy
         </li>
         <li>
-          Utilized DataGrip and Python scripts to refine over 1.3K lines of
-          imported clothing data from Shopify’s product taxonomy.
+          Created over 90+ CRUD and RESTful endpoints while implementing schema
+          validation checks in Drizzle ORM, ensuring data security, consistency
+          and compliance for PostgreSQL interactions in DataGrip.
         </li>
         <li>
-          Created over 80+ API endpoints with schema validation in Drizzle ORM,
-          ensuring data security and consistency for PostgreSQL interactions.
+          Developed an OOP hierarchy for clothing categories and attributes,
+          using a balanced AVL tree to enforce hierarchical integrity.
         </li>
         <li>
-          Developed an OOP hierarchy for clothing categories with a balanced AVL
-          tree to maintain sub-category structure integrity.
+          Led the integration of Stripe, Shopify, and Shippo, adhering to
+          documentation to enable users to seamlessly connect their Shopify
+          stores with up to 10,000 products to our website, supporting
+          high-volume transaction processing and custom shipping workflows.
         </li>
       </ul>
     ),
@@ -78,19 +81,22 @@ const experience = [
     ],
   },
   {
-    title: 'Software Engineer Intern, TablePal (prev. SeekEats)',
+    title: 'Lead Software Engineer, TablePal (prev. SeekEats)',
     description: (
       <ul className="list-disc">
         <li>
-          Increased chatbot accuracy by 50% and reduced response time by 20%
-          using a 5-stage bucket filtering technique.
+          Researched and implemented user behavior optimization strategies by
+          combining Bayesian optimization and time series transformers to
+          analyze interaction patterns and refine chatbot responses.
         </li>
         <li>
-          Designed a 25+ component chatbot UI, elevating user engagement by 40%.
+          Improved chatbot accuracy by 50% and reduced response time by 20%
+          through a 5-stage bucket filtering ML pipeline.{' '}
         </li>
         <li>
-          Managed DevOps deployment through AWS ECS with Docker, improving task
-          completion and scalability.
+          Spearheaded the deployment of a robust DevOps pipeline through AWS ECS
+          using Docker, enabling a 40% reduction in task completion time and
+          enhancing system scalability.
         </li>
       </ul>
     ),
